@@ -30,12 +30,22 @@ function App() {
    localStorage.setItem("earnings-spendings-diary",JSON.stringify(tempData));
 
     }
+  
+  
+  function remove(key){
+   let tempData= data.filter(t=> t.date!== key);
+
+    setData(tempData);
+
+    localStorage.setItem("earnings-spendings-diary",JSON.stringify(tempData));
+  }
+  
 
   return (
     <div className="App">
         <Dashboard data={data}/>
         <Form addNewDetail={addNewDetail} />
-        <List data={data}  />
+        <List data={data} remove={remove} />
     </div>
   );
 }
