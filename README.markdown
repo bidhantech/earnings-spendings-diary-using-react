@@ -1,3 +1,8 @@
+## Steps to Set Up This Project on Your Computer
+If You don't have `node` installed on your computer, install `node`. Then Open the project folder in your computer terminal and then run the following commands
+#### `npm install`
+#### `npm start`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
