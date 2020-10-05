@@ -93,7 +93,7 @@ li{
 }
 
 .date{
-    width: 40%;
+    width: 25%;
     padding-left: 10px; 
 }
 
@@ -104,7 +104,7 @@ li{
 .earn{
     color: rgb(7, 160, 7);
     font-weight: 700;
-    width: 20%;
+    width: 25%;
     text-align: right;
     padding-right: 10px;
 }
@@ -112,9 +112,23 @@ li{
 .spend{
     color: rgb(197, 7, 7);
     font-weight: 700;
-    width: 20%;
+    width: 25%;
     text-align: right;
     padding-right: 10px;
+}
+
+li span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete{
+    width: 10%;
+    font-size: 1em;
+    text-align: center;
+    color: red;
+    cursor: pointer;
 }
 
 .title{
