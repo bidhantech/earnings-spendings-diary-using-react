@@ -1,3 +1,7 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0c7f4a90-8dd8-465c-9636-fdccdbda5157/deploy-status)](https://app.netlify.com/sites/earning-spending-diary-demo/deploys)
+
+##### Demo Available Here: https://earning-spending-diary-demo.netlify.app/
+
 ## Steps to Set Up This Project on Your Computer
 If You don't have `node` installed on your computer, install `node`. Then Open the project folder in your computer terminal and then run the following commands
 #### `npm install`
