@@ -143,6 +143,10 @@ li span{
         width: 100vw;
     }
 
+    .Dashboard-container, .remaining{
+        width: 100vw;
+    }
+
     .Form{
         flex-direction: column;
         width: 95%;
